@@ -10,5 +10,6 @@ print(remove_every_other(['Hello', 'Good Night', 'Hello Again','Hello', 'Good Ni
 #my attempt
 def remove_every_other(my_list):
     return [item for index,item in enumerate(my_list) if (index % 2) == 0]
+print(remove_every_other(['Hello', 'Good Night', 'Hello Again','Hello', 'Good Night', 'Hello Again','Hello', 'Good Night', 'Hello Again']))
 
 
