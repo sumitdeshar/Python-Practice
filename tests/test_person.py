@@ -1,4 +1,4 @@
-from pytest_tryout.person import Person
+from UnitTesting.pytest_tryout.person import Person
 import pytest
 
 @pytest.fixture()
